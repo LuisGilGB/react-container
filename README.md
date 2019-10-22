@@ -53,7 +53,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Luis Gil Gutiérrez de la Barreda** - *Initial work* - [PurpleBooth](https://github.com/LuisGilGB)
+* **[Luis Gil Gutiérrez de la Barreda](https://github.com/LuisGilGB)**
 
 See also the list of [contributors](https://github.com/LuisGilGB/react-container/contributors) who participated in this project.
 
