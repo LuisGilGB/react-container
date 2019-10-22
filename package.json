@@ -1,0 +1,25 @@
+{
+  "name": "@luisgilgb/react-container",
+  "version": "1.0.0",
+  "description": "A Container component made for React that supports multiple layouts for its children.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGilGB/react-container.git"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Container",
+    "component"
+  ],
+  "author": "Luis Gil Gutiérrez de la Barreda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisGilGB/react-container/issues"
+  },
+  "homepage": "https://github.com/LuisGilGB/react-container#readme"
+}
