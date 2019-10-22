@@ -64,4 +64,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * ReactJS community and developers.
-* Sencha's ExtJS Container component, whose management of layouts was a source of inspiration for this component.
+* Sencha's ExtJS Container component, whose management of layouts was a source of inspiration for this project.
