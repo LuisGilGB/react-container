@@ -2,14 +2,7 @@ import React from 'react';
 import {isArray, isObject} from '@luisgilgb/js-utils';
 import {classNamer} from '@luisgilgb/react-utils';
 import {
-    getFlexAlignClassName,
-    getFlexJustifyClassName,
-    getLayoutClassName,
-    getLayoutContainerClassName,
-    getLayoutChildClassName,
-    getCmpClassName,
     getContainerClassName,
-    getChildClassName,
     mapChildClassName,
     mapChild
 } from './utils';
