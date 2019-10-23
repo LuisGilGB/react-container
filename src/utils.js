@@ -1,3 +1,4 @@
+import {classNamer} from '@luisgilgb/react-utils';
 import {
     FLEX_ALIGN_CLASS_NAMES,
     FLEX_JUSTIFY_CLASS_NAMES

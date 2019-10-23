@@ -1,6 +1,5 @@
 import React from 'react';
 import {isArray, isObject} from '@luisgilgb/js-utils';
-import {classNamer} from '@luisgilgb/react-utils';
 import {
     getContainerClassName,
     mapChildClassName,
