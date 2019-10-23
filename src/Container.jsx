@@ -6,6 +6,7 @@ import {
     mapChildClassName,
     mapChild
 } from './utils';
+import './Container.css';
 
 const Container = props => {
     const {
