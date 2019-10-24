@@ -22,6 +22,10 @@
     "url": "https://github.com/LuisGilGB/react-container/issues"
   },
   "homepage": "https://github.com/LuisGilGB/react-container#readme",
+  "dependencies": {
+    "@luisgilgb/js-utils": "^0.3.1",
+    "@luisgilgb/react-utils": "^0.1.0"
+  },
   "devDependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
@@ -29,9 +33,5 @@
   "peerDependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
-  },
-  "dependencies": {
-    "@luisgilgb/js-utils": "^0.3.1",
-    "@luisgilgb/react-utils": "^0.1.0"
   }
 }
