@@ -4,7 +4,11 @@
   "description": "A Container component made for React that supports multiple layouts for its children.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack --mode development",
+    "build-dev-watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "publish-pro": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
