@@ -1,12 +1,30 @@
 const path = require('path');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const htmlWebpackPlugin = new HtmlWebpackPlugin({
+    template: path.join(__dirname, "demo-app/public/index.html"),
+    filename: "./index.html"
+});
 
 module.exports = {
-    entry: './src/Container.jsx',
-    output: {
-        library: 'react-container',
-        libraryTarget: 'umd',
-        filename: 'index.js',
-        path: path.resolve(__dirname, 'dist'),
-        globalObject: 'this'
+    entry: path.join(__dirname, "demo-app/src/index.js"),
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                use: "babel-loader",
+                exclude: /node_modules/
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            }
+        ]
+    },
+    plugins: [htmlWebpackPlugin],
+    resolve: {
+        extensions: [".js", ".jsx"]
+    },
+    devServer: {
+        port: 3001
     }
-}
+};
