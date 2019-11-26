@@ -4,7 +4,7 @@ import {
     getContainerClassName,
     mapChildClassName,
     mapChild
-} from './utils';
+} from './innerLogicFunctions';
 import './Container.css';
 
 const Container = props => {
