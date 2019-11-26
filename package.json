@@ -2,10 +2,11 @@
   "name": "@luisgilgb/react-container",
   "version": "1.0.0",
   "description": "A Container component made for React that supports multiple layouts for its children.",
-  "main": "index.js",
+  "main": "Container.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development"
+    "demostart": "webpack-dev-server --mode development --config webpack.demo.config.js",
+    "build": "webpack --mode production"
   },
   "files": [
     "/dist"
