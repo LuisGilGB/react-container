@@ -1,12 +1,14 @@
 const path = require('path');
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const htmlWebpackPlugin = new HtmlWebpackPlugin({
-    template: path.join(__dirname, "demo-app/public/index.html"),
-    filename: "./index.html"
-});
 
 module.exports = {
-    entry: path.join(__dirname, "demo-app/src/index.js"),
+    entry: path.join(__dirname, "src/Container.jsx"),
+    output: {
+        library: 'react-container',
+        libraryTarget: 'umd',
+        filename: 'index.js',
+        path: path.resolve(__dirname, 'dist'),
+        globalObject: 'this'
+    },
     module: {
         rules: [
             {
@@ -20,11 +22,7 @@ module.exports = {
             }
         ]
     },
-    plugins: [htmlWebpackPlugin],
     resolve: {
         extensions: [".js", ".jsx"]
-    },
-    devServer: {
-        port: 3001
     }
 };
