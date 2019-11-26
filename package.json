@@ -2,7 +2,7 @@
   "name": "@luisgilgb/react-container",
   "version": "1.0.0",
   "description": "A Container component made for React that supports multiple layouts for its children.",
-  "main": "dist/react-container.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "demostart": "webpack-dev-server --mode development --config webpack.demo.config.js",
@@ -29,14 +29,12 @@
     "url": "https://github.com/LuisGilGB/react-container/issues"
   },
   "homepage": "https://github.com/LuisGilGB/react-container#readme",
-  "dependencies": {
-    "@luisgilgb/js-utils": "^0.3.1",
-    "@luisgilgb/react-utils": "^0.2.1"
-  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@luisgilgb/js-utils": "^0.3.1",
+    "@luisgilgb/react-utils": "^0.2.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "html-webpack-plugin": "^3.2.0",
@@ -49,6 +47,8 @@
     "webpack-dev-server": "^3.9.0"
   },
   "peerDependencies": {
+    "@luisgilgb/js-utils": "^0.3.1",
+    "@luisgilgb/react-utils": "^0.2.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   }

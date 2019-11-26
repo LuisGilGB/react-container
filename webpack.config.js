@@ -5,7 +5,7 @@ module.exports = {
     output: {
         library: 'react-container',
         libraryTarget: 'umd',
-        filename: 'react-container.js',
+        filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         globalObject: 'this'
     },
