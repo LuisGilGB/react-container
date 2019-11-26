@@ -1,0 +1,55 @@
+{
+  "name": "@luisgilgb/react-container",
+  "version": "1.0.0",
+  "description": "A Container component made for React that supports multiple layouts for its children.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demostart": "webpack-dev-server --mode development --config webpack.demo.config.js",
+    "build": "webpack --mode production",
+    "ibuild": "npm install && npm run build",
+    "publish-pro": "npm run ibuild && npm publish --access public"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGilGB/react-container.git"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Container",
+    "component"
+  ],
+  "author": "Luis Gil Gutiérrez de la Barreda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisGilGB/react-container/issues"
+  },
+  "homepage": "https://github.com/LuisGilGB/react-container#readme",
+  "dependencies": {
+    "@luisgilgb/js-utils": "^0.3.1",
+    "@luisgilgb/react-utils": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.19.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

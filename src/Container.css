@@ -1,0 +1,64 @@
+.lgr-container-item {
+    display: inline-flex;
+}
+
+.lgr-container-fit {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.lgr-container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgr-container-rowflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.lgr-container-colflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.lgr-container-flex-align-start {
+    align-items: flex-start;
+}
+.lgr-container-flex-align-end {
+    align-items: flex-end;
+}
+.lgr-container-flex-align-center {
+    align-items: center;
+}
+.lgr-container-flex-align-stretch {
+    align-items: stretch;
+}
+.lgr-container-flex-align-baseline {
+    align-items: baseline;
+}
+
+.lgr-container-flex-justify-start {
+    justify-content: flex-start;
+}
+.lgr-container-flex-justify-end {
+    justify-content: flex-end;
+}
+.lgr-container-flex-justify-center {
+    justify-content: center;
+}
+.lgr-container-flex-justify-spacebetween {
+    justify-content: space-between;
+}
+.lgr-container-flex-justify-spacearound {
+    justify-content: space-around;
+}
+.lgr-container-flex-justify-spaceevenly {
+    justify-content: space-evenly;
+}
