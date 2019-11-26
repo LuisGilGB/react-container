@@ -11,6 +11,7 @@ const Container = props => {
     const {
         children,
         className,
+        style: styleProp,
         layout,
         width,
         height,
@@ -24,6 +25,7 @@ const Container = props => {
     } = props;
 
     const style = {
+        ...styleProp,
         width,
         height,
         flexGrow,
@@ -35,9 +37,9 @@ const Container = props => {
 
     return (
         <div
+            {...otherProps}
             className={getContainerClassName(layout, className)}
             onClick={onClick}
-            {...otherProps}
             style={style}
         >
             {isArray(children) ?
