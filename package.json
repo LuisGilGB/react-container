@@ -1,6 +1,6 @@
 {
   "name": "@luisgilgb/react-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Container component made for React that supports multiple layouts for its children.",
   "main": "dist/index.js",
   "scripts": {
