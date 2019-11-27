@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "demostart": "webpack-dev-server --mode development --config webpack.demo.config.js",
+    "transpile": "babel src -d dist-transpiled --copy-files --presets=@babel/preset-env,@babel/preset-react",
     "build": "webpack --mode production",
     "ibuild": "npm install && npm run build",
     "publish-pro": "npm run ibuild && npm publish --access public"
@@ -34,6 +35,7 @@
     "@luisgilgb/react-utils": "^0.2.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
