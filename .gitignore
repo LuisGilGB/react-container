@@ -62,3 +62,4 @@ typings/
 
 # dist files
 dist/
+dist-transpiled/
