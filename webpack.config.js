@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: path.join(__dirname, "src/index.js"),
+    entry: path.join(__dirname, "src/Container.jsx"),
     output: {
         library: 'react-container',
         libraryTarget: 'umd',
@@ -13,8 +13,10 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                use: "babel-loader",
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                }
             },
             {
                 test: /\.css$/,
@@ -24,5 +26,8 @@ module.exports = {
     },
     resolve: {
         extensions: [".js", ".jsx"]
+    },
+    optimization:{
+        minimize: false
     }
 };
