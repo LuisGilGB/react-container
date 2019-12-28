@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from '../../src'
+import Container from '../../dist';
 import './DemoApp.css';
 
 function DemoApp() {
