@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/LuisGilGB/react-container#readme",
   "dependencies": {
-    "@luisgilgb/js-utils": "^0.3.1",
+    "@luisgilgb/js-utils": "^0.3.2",
     "@luisgilgb/react-utils": "^0.2.1"
   },
   "devDependencies": {
