@@ -1,4 +1,12 @@
 .lgr-container-item {
+    display: block;
+}
+
+.lgr-container-colflex-item {
+    display: inline-flex;
+}
+
+.lgr-container-rowflex-item {
     display: inline-flex;
 }
 

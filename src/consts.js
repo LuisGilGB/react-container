@@ -21,6 +21,14 @@ export const LAYOUTS_CFG = {
     rowflex: {
         contClassName: 'lgr-container-rowflex',
         childClassName: 'lgr-container-rowflex-item'
+    },
+    vflex: {
+        contClassName: 'lgr-container-colflex',
+        childClassName: 'lgr-container-colflex-item'
+    },
+    hflex: {
+        contClassName: 'lgr-container-rowflex',
+        childClassName: 'lgr-container-rowflex-item'
     }
 }
 
