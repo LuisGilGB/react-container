@@ -57,11 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
-# vscode config
-.vscode
-
 # next.js build output
 .next
+
+# vscode config
+.vscode
 
 # dist files
 dist/
