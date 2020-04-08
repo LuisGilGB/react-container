@@ -1,83 +1,83 @@
-export const DEFAULT_CLASS_NAME = 'lgr-container';
-export const DEFAULT_CHILD_CLASS_NAME = 'lgr-container-item';
+export const DEFAULT_CLASS_NAME = 'reactcontainer';
+export const DEFAULT_CHILD_CLASS_NAME = 'reactcontainer-item';
 
 export const LAYOUTS_CFG = {
     auto: {
-        contClassName: 'lgr-container-auto',
-        childClassName: 'lgr-container-auto-item'
+        contClassName: 'reactcontainer-auto',
+        childClassName: 'reactcontainer-auto-item'
     },
     fit: {
-        contClassName: 'lgr-container-fit',
-        childClassName: 'lgr-container-fit-item'
+        contClassName: 'reactcontainer-fit',
+        childClassName: 'reactcontainer-fit-item'
     },
     center: {
-        contClassName: 'lgr-container-center',
-        childClassName: 'lgr-container-center-item'
+        contClassName: 'reactcontainer-center',
+        childClassName: 'reactcontainer-center-item'
     },
     colflex: {
-        contClassName: 'lgr-container-colflex',
-        childClassName: 'lgr-container-colflex-item'
+        contClassName: 'reactcontainer-colflex',
+        childClassName: 'reactcontainer-colflex-item'
     },
     rowflex: {
-        contClassName: 'lgr-container-rowflex',
-        childClassName: 'lgr-container-rowflex-item'
+        contClassName: 'reactcontainer-rowflex',
+        childClassName: 'reactcontainer-rowflex-item'
     },
     vflex: {
-        contClassName: 'lgr-container-colflex',
-        childClassName: 'lgr-container-colflex-item'
+        contClassName: 'reactcontainer-colflex',
+        childClassName: 'reactcontainer-colflex-item'
     },
     hflex: {
-        contClassName: 'lgr-container-rowflex',
-        childClassName: 'lgr-container-rowflex-item'
+        contClassName: 'reactcontainer-rowflex',
+        childClassName: 'reactcontainer-rowflex-item'
     }
 }
 
 export const FLEX_ALIGN_CLASS_NAMES = {
     start: {
-        contClassName: 'lgr-container-flex-align-start',
-        childClassName: 'lgr-container-flex-align-start-item'
+        contClassName: 'reactcontainer-flex-align-start',
+        childClassName: 'reactcontainer-flex-align-start-item'
     },
     end: {
-        contClassName: 'lgr-container-flex-align-end',
-        childClassName: 'lgr-container-flex-align-end-item'
+        contClassName: 'reactcontainer-flex-align-end',
+        childClassName: 'reactcontainer-flex-align-end-item'
     },
     center: {
-        contClassName: 'lgr-container-flex-align-center',
-        childClassName: 'lgr-container-flex-align-center-item'
+        contClassName: 'reactcontainer-flex-align-center',
+        childClassName: 'reactcontainer-flex-align-center-item'
     },
     stretch: {
-        contClassName: 'lgr-container-flex-align-stretch',
-        childClassName: 'lgr-container-flex-align-stretch-item'
+        contClassName: 'reactcontainer-flex-align-stretch',
+        childClassName: 'reactcontainer-flex-align-stretch-item'
     },
     baseline: {
-        contClassName: 'lgr-container-flex-align-baseline',
-        childClassName: 'lgr-container-flex-align-baseline-item'
+        contClassName: 'reactcontainer-flex-align-baseline',
+        childClassName: 'reactcontainer-flex-align-baseline-item'
     }
 }
 
 export const FLEX_JUSTIFY_CLASS_NAMES = {
     start: {
-        contClassName: 'lgr-container-flex-justify-start',
-        childClassName: 'lgr-container-flex-justify-start-item'
+        contClassName: 'reactcontainer-flex-justify-start',
+        childClassName: 'reactcontainer-flex-justify-start-item'
     },
     end: {
-        contClassName: 'lgr-container-flex-justify-end',
-        childClassName: 'lgr-container-flex-justify-end-item'
+        contClassName: 'reactcontainer-flex-justify-end',
+        childClassName: 'reactcontainer-flex-justify-end-item'
     },
     center: {
-        contClassName: 'lgr-container-flex-justify-center',
-        childClassName: 'lgr-container-flex-justify-center-item'
+        contClassName: 'reactcontainer-flex-justify-center',
+        childClassName: 'reactcontainer-flex-justify-center-item'
     },
     spaceBetween: {
-        contClassName: 'lgr-container-flex-justify-spacebetween',
-        childClassName: 'lgr-container-flex-justify-spacebetween-item'
+        contClassName: 'reactcontainer-flex-justify-spacebetween',
+        childClassName: 'reactcontainer-flex-justify-spacebetween-item'
     },
     spaceAround: {
-        contClassName: 'lgr-container-flex-justify-spacearound',
-        childClassName: 'lgr-container-flex-justify-spacearound-item'
+        contClassName: 'reactcontainer-flex-justify-spacearound',
+        childClassName: 'reactcontainer-flex-justify-spacearound-item'
     },
     spaceEvenly: {
-        contClassName: 'lgr-container-flex-justify-spaceevenly',
-        childClassName: 'lgr-container-flex-justify-spaceevenly-item'
+        contClassName: 'reactcontainer-flex-justify-spaceevenly',
+        childClassName: 'reactcontainer-flex-justify-spaceevenly-item'
     }
 }

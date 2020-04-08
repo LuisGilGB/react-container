@@ -27,6 +27,7 @@ function DemoApp() {
             <p>This is a Container with no layout</p>
             <Container
                 layout="rowflex"
+                minWidth={600}
                 style={{
                     padding: '15px',
                     backgroundColor: 'mediumseagreen'
@@ -43,6 +44,7 @@ function DemoApp() {
                 </Container>
                 <Container
                     flex={1}
+                    minWidth={300}
                     style={{
                         border: '3px solid steelblue',
                         padding: '15px'
