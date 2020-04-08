@@ -20,6 +20,7 @@ const Container = props => {
         maxWidth,
         minHeight,
         maxHeight,
+        overflow,
         onClick,
         ...otherProps
     } = props;
@@ -32,7 +33,8 @@ const Container = props => {
         minWidth,
         maxWidth,
         minHeight,
-        maxHeight
+        maxHeight,
+        overflow
     }
 
     return (
