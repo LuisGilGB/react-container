@@ -1,18 +1,10 @@
 .reactcontainer {
     display: block;
+    overflow: auto;
   }
 
 .reactcontainer-item {
     display: block;
-    overflow: auto;
-}
-
-.reactcontainer-item.reactcontainer-colflex-item {
-    display: inline-flex;
-}
-
-.reactcontainer-item.reactcontainer-rowflex-item {
-    display: inline-flex;
 }
 
 .reactcontainer.reactcontainer-fit {
