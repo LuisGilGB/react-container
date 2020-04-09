@@ -1,76 +1,69 @@
-.reactcontainer-item {
+.reactcontainer {
+    display: block;
     overflow: auto;
-}
+  }
 
 .reactcontainer-item {
     display: block;
 }
 
-.reactcontainer-colflex-item {
-    display: inline-flex;
-}
-
-.reactcontainer-rowflex-item {
-    display: inline-flex;
-}
-
-.reactcontainer-fit {
+.reactcontainer.reactcontainer-fit {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
 }
 
-.reactcontainer-center {
+.reactcontainer.reactcontainer-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.reactcontainer-rowflex {
+.reactcontainer.reactcontainer-rowflex {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
 }
 
-.reactcontainer-colflex {
+.reactcontainer.reactcontainer-colflex {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
 }
 
-.reactcontainer-flex-align-start {
+.reactcontainer.reactcontainer-flex-align-start {
     align-items: flex-start;
 }
-.reactcontainer-flex-align-end {
+.reactcontainer.reactcontainer-flex-align-end {
     align-items: flex-end;
 }
-.reactcontainer-flex-align-center {
+.reactcontainer.reactcontainer-flex-align-center {
     align-items: center;
 }
-.reactcontainer-flex-align-stretch {
+.reactcontainer.reactcontainer-flex-align-stretch {
     align-items: stretch;
 }
-.reactcontainer-flex-align-baseline {
+.reactcontainer.reactcontainer-flex-align-baseline {
     align-items: baseline;
 }
 
-.reactcontainer-flex-justify-start {
+.reactcontainer.reactcontainer-flex-justify-start {
     justify-content: flex-start;
 }
-.reactcontainer-flex-justify-end {
+.reactcontainer.reactcontainer-flex-justify-end {
     justify-content: flex-end;
 }
-.reactcontainer-flex-justify-center {
+.reactcontainer.reactcontainer-flex-justify-center {
     justify-content: center;
 }
-.reactcontainer-flex-justify-spacebetween {
+.reactcontainer.reactcontainer-flex-justify-spacebetween {
     justify-content: space-between;
 }
-.reactcontainer-flex-justify-spacearound {
+.reactcontainer.reactcontainer-flex-justify-spacearound {
     justify-content: space-around;
 }
-.reactcontainer-flex-justify-spaceevenly {
+.reactcontainer.reactcontainer-flex-justify-spaceevenly {
     justify-content: space-evenly;
 }
