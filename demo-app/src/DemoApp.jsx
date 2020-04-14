@@ -41,6 +41,8 @@ function DemoApp() {
                     }}
                 >
                     This is a Container with flex 2 into a rowflex Container.
+                    {null && <div>Look what happens when a null is passed as a child</div>}
+                    {false && <div>Look what happens when a false is passed as a child</div>}
                 </Container>
                 <Container
                     flex={1}
@@ -51,6 +53,7 @@ function DemoApp() {
                     }}
                 >
                     This is a Container with flex 1 into a rowflex Container.
+                    <div>And a div</div>
                 </Container>
             </Container>
             <Container

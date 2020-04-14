@@ -37,6 +37,8 @@ const Container = props => {
         overflow
     }
 
+    const prepareChild = child => isObject(child === 'object') ? mapChild(child, mapChildClassName(layout)) : child;
+
     return (
         <div
             {...otherProps}
@@ -44,10 +46,7 @@ const Container = props => {
             onClick={onClick}
             style={style}
         >
-            {isArray(children) ?
-                children.map(child => mapChild(child, mapChildClassName(layout))) :
-                (isObject(children === 'object') ? mapChild(children, mapChildClassName(layout)) : children)
-            }
+            {isArray(children) ? children.map(prepareChild) : prepareChild(children)}
         </div>
     );
 }
